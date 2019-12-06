@@ -1,0 +1,30 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/oleg
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :Документы/DMS-frontend/src/router/index.js
+> git check-ignore -v -z --stdin
+> git show :Документы/DMS-frontend/src/components/Domains.vue
+> git show :Документы/DMS-frontend/src/components/ServersChecker.vue
+> git show :Документы/DMS-frontend/src/components/Servers.vue
+> git check-ignore -v -z --stdin
+> git show :Документы/DMS-backend/ecosystem.config.js
+> git show :Документы/DMS-backend/app/roles.js
+> git show :Документы/DMS-backend/app/routes.js
